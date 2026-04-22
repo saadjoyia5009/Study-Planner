@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (taskText === '') return;
 
             const li = document.createElement('li');
+
+            
             li.innerHTML = `
                 ${taskText} 
                 <button class="delete-btn">X</button>
